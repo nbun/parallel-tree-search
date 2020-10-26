@@ -1,5 +1,5 @@
 -- |
--- Module      : Control.Concurrent.ParallelTreeSearch
+-- Module      : Control.Parallel.TreeSearch
 -- Copyright   : Fabian Reck, Sebastian Fischer
 -- License     : PublicDomain
 -- 
@@ -10,7 +10,7 @@
 -- This Haskell library provides an implementation of parallel search
 -- based on the search tree provided by the package tree-monad.
 -- 
-module Control.Concurrent.ParallelTreeSearch ( parSearch ) where
+module Control.Parallel.TreeSearch ( parSearch ) where
 
 import Control.Monad.SearchTree
 import Control.Parallel
